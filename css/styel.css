@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main{
+        width: 100%;
+        padding: 0px 163px;
+        color: #1d1d1d;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.navBox{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+
+}
+
+.navBox>ul{
+    display: flex;
+}
+
+.navBox li{
+    margin: 5px 20px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+.profileBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 190px 0px;
+
+}
+
+.profilePicBox{
+    width: 62%;
+}
+
+
+
+.name{
+    width: 100%;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.specialization{
+    width: 100%;
+    font-size: 45px;
+}
+
+.description{
+    margin: 16px 0px;
+    width: 76%;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #000000b0;
+} 
+
+.downloadBtn{
+    display: block;
+    background-color: #ff3c3c;
+    padding: 10px 13px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: fit-content;
+    margin-top: 22px;
+}
+
+/* .profilePicBox{
+
+} */
+
+.imgBox{
+    width: 125%;
+}
+
+.recentBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 19%;
+    background-color: rgb(0, 0, 0, 0.03);
+    padding-bottom: 20px; 
+
+}
+
+.recentTopDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 14px 0px;
+}
+
+.recentTopDiv>a{
+    font-size: 13px;
+    color: blue;
+}
+
+.postCardBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cardBox{
+    padding: 19px;
+    box-shadow: black 0px 0px 10px -9px;
+    width: 49%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.cardBox>h3{
+    line-height: 1.5;
+    font-size: 24px;
+} 
+
+.cardBox>div{
+    margin: 11px 0px;
+    color: #000000ad;
+}
+
+.date{
+    padding-right: 10px;
+    border-right: 1px solid black;
+    font-size: 12px;
+}
+
+.postInfo{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.cardBox>p{
+    font-size: 12px;
+    line-height: 1.5;
+    color: #000000ad;
+}
+
+
+
+
+
+
+
