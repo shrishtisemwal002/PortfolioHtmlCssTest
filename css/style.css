@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+   color:inherit
+}
+
+.main{
+        width: 100%;
+        color: #21243d;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+
+.navBox{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 99;
+
+}
+
+.navBox>ul{
+    display: flex;
+}
+
+.navBox li{
+    margin: 5px 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.profileBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 190px;
+    padding: 0px 163px;
+    margin-bottom: 120px;
+
+}
+
+.profilePicBox{
+    width: 62%;
+}
+
+
+
+.name{
+    width: 100%;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.specialization{
+    width: 100%;
+    font-size: 45px;
+}
+
+.description{
+    margin: 16px 0px;
+    width: 76%;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+
+} 
+
+.downloadBtn{
+    display: block;
+    color: #21243d;
+    background-color: #ff6464;
+    padding: 12px 22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    width: fit-content;
+    margin-top: 22px;
+    border-radius: 2px;;
+}
+
+.downloadBtn:hover{
+    background-color: #ff4949;
+}
+
+.downloadBtn:active{
+    background-color: #ff6464;
+}
+
+/* .profilePicBox{
+
+} */
+
+.imgBox{
+    width: 125%;
+}
+
+.recentBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 163px;
+    background-color: #edf7fa;
+    padding-bottom: 20px; 
+
+}
+
+.recentTopDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 14px 0px;
+}
+
+.recentTopDiv>a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #0000ff94;
+}
+
+.postCardBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cardBox{
+    display: block;
+    padding: 33px;
+    box-shadow: black 0px 0px 10px -9px;
+    width: 49%;
+    background-color: white;
+    border-radius: 6px;
+    transition: all .3s;
+}
+
+.cardBox:hover{
+    transform: scale(1.05);
+}
+
+.cardBox>h3{
+    line-height: 1.5;
+    font-size: 24px;
+} 
+
+.cardBox>div{
+    margin: 11px 0px;
+}
+
+.date{
+    padding-right: 30px;
+    border-right: 1.5px solid #21243d;
+}
+
+.postInfo{
+    padding-left: 25px;
+}
+
+.cardBox>p{
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.featuredBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 163px;
+    color:#21243d;
+}
+
+.featuredBox>p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.featureCard{
+    display: flex;
+    padding: 25px 0px;
+    box-shadow: black 0px 3px 8px -8px;
+    transition: all 0.3s;
+}
+
+.featureCard:hover{
+    transform: scale(1.03);
+}
+
+
+.featureImg{
+    width: 50%;
+
+}
+
+.featureInfo{
+    padding-left: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 7px;
+}
+
+.featureInfo>h2{
+    font-weight: bolder;
+}
+
+.featureInfo>div{
+    margin: 10px 0px;
+    color: #0000005e;
+}
+
+.year{
+    margin-right: 25px;
+    background-color: #21243d;
+    color: white;
+    font-weight: bold;
+    padding: 1px 8px;
+    border-radius: 26px;
+    font-size: 14px;
+}
+
+.featureInfo>p{
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.socialBox{
+    margin-top: 88px;
+    margin-bottom: 51px;
+}
+
+.socialLogoBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialLogo{
+    width: 20px;
+    margin: 0px 11px;
+}
+
+.copyrightTxt{
+    text-align: center;
+    font-size: 9px;
+    margin-top: 14px;
+}
+
+
+
+
+
+
+
