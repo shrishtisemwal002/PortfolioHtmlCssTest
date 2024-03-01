@@ -1,5 +1,3 @@
-# PortfolioHtmlCss
-
 # Portfolio Webpage
 
 This repository contains the source code for my personal portfolio webpage. The webpage is designed using only HTML and CSS, with a focus on using the `position` property for layout.
@@ -7,14 +5,13 @@ This repository contains the source code for my personal portfolio webpage. The 
 ## Project Structure
 
 - **index.html**: The main HTML file that serves as the entry point to the portfolio webpage.
-- **styles.css**: The CSS file containing styling rules for the entire webpage.
-- **images/**: A directory containing images used in the portfolio.
+- **css/style.css**: The CSS file containing styling rules for the entire webpage.
+- **public/images/**: A directory containing images used in the portfolio.
 
 ## Features
 
 - **HTML and CSS**: The entire webpage is built using HTML for structure and CSS for styling.
 - **Positioning**: The layout is designed using the `position` property in CSS, demonstrating a non-flexbox approach.
-- **Responsive Design**: The webpage is designed to be responsive and work well on various devices and screen sizes.
 - **Images**: The `images` directory contains images used in the portfolio, enhancing the visual appeal.
 
 ## Usage
@@ -27,9 +24,9 @@ To view the webpage locally, simply open the `index.html` file in a web browser.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-portfolio.git
+git clone https://github.com/superiorankit/PortfolioHtmlCss.git
 
 # Navigate to the project directory
-cd your-portfolio
+cd PortfolioHtmlCss
 
 # Open the index.html file in your preferred browser
