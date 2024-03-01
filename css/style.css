@@ -25,42 +25,60 @@ img{
 
 .navBox{
     width: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
     padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
     background-color: white;
     z-index: 99;
-
+    height: 70px;
 }
 
 .navBox>ul{
-    display: flex;
+    position: absolute;
+    right: 0px;
 }
 
 .navBox li{
     margin: 5px 20px;
     font-weight: bold;
     font-size: 18px;
+    position: absolute;
+    right: 10px;
+}
+
+.navBox>ul>li:nth-child(1){
+    right: 200px
+}
+.navBox>ul>li:nth-child(2){
+    right: 130px
+}
+
+.navBox>ul>li:nth-child(3){
+    right: 40px
 }
 
 
 .profileBox{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 190px;
-    padding: 0px 163px;
-    margin-bottom: 120px;
+    height: 100vh;
+    position: relative;
 
 }
 
+.nameBox{
+    position: absolute;
+    left: 13%;
+    width: 53%;
+    margin: 12% 0%;
+}
+
 .profilePicBox{
-    width: 62%;
+    position: absolute;
+    width: 19%;
+    right: 13%;
+    top: 0;
+    margin: 12% 0%;
 }
 
 .profilePicBox>img{
@@ -96,10 +114,9 @@ img{
     padding: 12px 22px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
     width: fit-content;
     margin-top: 22px;
-    border-radius: 2px;;
+    border-radius: 2px;
 }
 
 .downloadBtn:hover{
@@ -119,20 +136,15 @@ img{
 }
 
 .recentBox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 0px 163px;
     background-color: #edf7fa;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
+    height: 337px;
 
 }
 
 .recentTopDiv{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
     width: 100%;
     padding: 14px 0px;
 }
@@ -144,9 +156,10 @@ img{
 }
 
 .postCardBox{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: fit-content;
+    position: relative;
+    width: 100%;
+    height: 100%;
 
 }
 
@@ -158,6 +171,7 @@ img{
     background-color: white;
     border-radius: 6px;
     transition: all .3s;
+    position: absolute;
 }
 
 .cardBox:hover{
@@ -171,6 +185,14 @@ img{
 
 .cardBox>div{
     margin: 11px 0px;
+}
+
+.designCard{
+    left: 0;
+}
+
+.pixelCard{
+    right: 0;
 }
 
 .date{
@@ -188,8 +210,6 @@ img{
 }
 
 .featuredBox{
-    display: flex;
-    flex-direction: column;
     padding: 10px 163px;
     color:#21243d;
 }
@@ -201,10 +221,12 @@ img{
 }
 
 .featureCard{
-    display: flex;
+    display: block;
     padding: 25px 0px;
     box-shadow: black 0px 3px 8px -8px;
     transition: all 0.3s;
+    position: relative;
+    height: 205px;
 }
 
 .featureCard:hover{
@@ -213,16 +235,17 @@ img{
 
 
 .featureImg{
-    width: 50%;
+    width: 23%;
+    position: absolute;
 
 }
 
 .featureInfo{
     padding-left: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     padding-bottom: 7px;
+    position: absolute;
+    width: 77%;
+    right: 0;
 }
 
 .featureInfo>h2{
@@ -230,7 +253,7 @@ img{
 }
 
 .featureInfo>div{
-    margin: 10px 0px;
+    margin: 22px 0px;
     color: #0000005e;
 }
 
@@ -256,14 +279,17 @@ img{
 
 .socialLogoBox
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-left: 43%;
+
 }
 
 .socialLogo{
     width: 20px;
     margin: 0px 11px;
+}
+
+.socialLogo>img{
+    width: 20px;
 }
 
 .copyrightTxt{
